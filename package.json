@@ -1,0 +1,36 @@
+{
+  "name": "countycode",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/countrycode.umd.js",
+  "module": "dist/countrycode.es5.js",
+  "typings": "dist/types/countrycode.d.ts",
+  "scripts": {
+    "lint": "prettier --write --parser typescript \"src/**/*.ts\"",
+    "prebuild": "rimraf dist",
+    "build": "tsc --module commonjs && rollup -c rollup.config.ts",
+    "test:watch": "jest --coverage --watch",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satotake/countrycode-js.git"
+  },
+  "license": "MIT",
+  "author": "SatowTakeshi <doublequotation@gmail.com>",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@types/jest": "^26.0.10",
+    "jest": "^26.4.2",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.26.5",
+    "rollup-plugin-sourcemaps": "^0.6.2",
+    "rollup-plugin-typescript2": "^0.27.2",
+    "ts-jest": "^26.2.0",
+    "tslib": "^2.0.1",
+    "typescript": "^4.0.2"
+  }
+}
