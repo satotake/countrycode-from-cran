@@ -1,7 +1,7 @@
 {
   "name": "countycode",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "js wrapper of countrycode in R https://github.com/vincentarelbundock/countrycode",
   "main": "dist/countrycode.umd.js",
   "module": "dist/countrycode.es5.js",
   "typings": "dist/types/countrycode.d.ts",
