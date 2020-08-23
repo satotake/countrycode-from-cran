@@ -23,7 +23,7 @@ import * as countrycode from 'countrycode-from-cran'
 #### find
 
 ```typescript
-countrycode.find('JPN, 'cowc')
+countrycode.find('JPN', 'cowc')
 
 // =>
 {
@@ -115,7 +115,7 @@ countrycode.guessCodeKey(['Japan', 'Antarctica'])
 #### fuzzySearch
 
 ``` typescript
-countrycode.fuzzySearch('Congo, 'country.name.en')
+countrycode.fuzzySearch('Congo', 'country.name.en')
 // =>
 [
   {
