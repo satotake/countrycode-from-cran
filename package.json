@@ -1,10 +1,19 @@
 {
   "name": "countrycode-from-cran",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "js wrapper of countrycode in R https://github.com/vincentarelbundock/countrycode",
   "main": "dist/countrycode.umd.js",
   "module": "dist/countrycode.es5.js",
   "typings": "dist/types/countrycode.d.ts",
+  "keywords": [
+    "countrycode",
+    "country",
+    "R",
+    "typescript"
+  ],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "lint": "prettier --write --parser typescript \"src/**/*.ts\"",
     "prebuild": "rimraf dist",
