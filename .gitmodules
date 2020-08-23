@@ -1,0 +1,3 @@
+[submodule "countrycode-r"]
+	path = countrycode-r
+	url = git@github.com:vincentarelbundock/countrycode.git
