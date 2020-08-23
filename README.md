@@ -14,16 +14,16 @@ npm install countrycode-from-cran
 #### import
 
 ``` typescript
-const countrycode = require('countrycode-from-cran');
+const countrycode = require('countrycode-from-cran')
 
 // Or,
-import * as countrycode from 'countrycode-from-cran';
+import * as countrycode from 'countrycode-from-cran'
 ```
 
 #### find
 
 ```typescript
-countrycode.find('JPN, 'cowc')
+countrycode.find('JPN', 'cowc')
 
 // =>
 {
@@ -115,7 +115,7 @@ countrycode.guessCodeKey(['Japan', 'Antarctica'])
 #### fuzzySearch
 
 ``` typescript
-countrycode.fuzzySearchAll('Congo, 'country.name.en')
+countrycode.fuzzySearch('Congo', 'country.name.en')
 // =>
 [
   {
