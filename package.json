@@ -1,6 +1,6 @@
 {
-  "name": "@countrycode-from-cran/prototype",
-  "version": "0.1.5",
+  "name": "countrycode-from-cran",
+  "version": "0.1.6",
   "description": "js wrapper of countrycode in R https://github.com/vincentarelbundock/countrycode",
   "main": "dist/countrycode.umd.js",
   "module": "dist/countrycode.es5.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/satotake/countrycode-js.git"
+    "url": "git+https://github.com/satotake/countrycode-from-cran.git"
   },
   "license": "MIT",
   "author": "SatowTakeshi <doublequotation@gmail.com>",
