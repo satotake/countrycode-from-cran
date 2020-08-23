@@ -36,8 +36,8 @@ jobs:
       uses: pascalgn/npm-publish-action@06e0830ea83eea10ed4a62654eeaedafb8bf50fc
       with: # All of theses inputs are optional
         tag_name: "v%s"
-        # tag_message: "v%s"
-        # commit_pattern: "^Release (\\S+)"
+        tag_message: "v%s"
+        commit_pattern: "^Release (\\S+)"
         workspace: "."
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
