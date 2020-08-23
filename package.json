@@ -5,6 +5,9 @@
   "main": "dist/countrycode.umd.js",
   "module": "dist/countrycode.es5.js",
   "typings": "dist/types/countrycode.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "lint": "prettier --write --parser typescript \"src/**/*.ts\"",
     "prebuild": "rimraf dist",
