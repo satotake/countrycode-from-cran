@@ -1,5 +1,5 @@
 {
-  "name": "countrycode",
+  "name": "@countrycode-from-cran/prototype",
   "version": "0.1.4",
   "description": "js wrapper of countrycode in R https://github.com/vincentarelbundock/countrycode",
   "main": "dist/countrycode.umd.js",
