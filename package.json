@@ -1,6 +1,6 @@
 {
   "name": "countrycode-from-cran",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "js wrapper of countrycode in R https://github.com/vincentarelbundock/countrycode",
   "main": "dist/countrycode.umd.js",
   "module": "dist/countrycode.es5.js",
@@ -25,7 +25,7 @@
     "type": "git",
     "url": "git+https://github.com/satotake/countrycode-from-cran.git"
   },
-  "license": "MIT",
+  "license": "GNU",
   "author": "SatowTakeshi <doublequotation@gmail.com>",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^15.0.0",
