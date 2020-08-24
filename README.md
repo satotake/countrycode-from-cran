@@ -1,6 +1,8 @@
 # countrycode-from-cran
 
-JS port of [R package countrycode](https://github.com/vincentarelbundock/countrycode) by Prof. Vincent Arel-Bundock
+JS port of [R package countrycode](https://github.com/vincentarelbundock/countrycode) by Prof. Vincent Arel-Bundock 
+
+(not official)
 
 ### Install
 
