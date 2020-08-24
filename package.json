@@ -25,7 +25,7 @@
     "type": "git",
     "url": "git+https://github.com/satotake/countrycode-from-cran.git"
   },
-  "license": "MIT",
+  "license": "GNU",
   "author": "SatowTakeshi <doublequotation@gmail.com>",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^15.0.0",
