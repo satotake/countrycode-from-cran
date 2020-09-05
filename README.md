@@ -2,7 +2,7 @@
 
 JS port of [R package countrycode](https://github.com/vincentarelbundock/countrycode) by Prof. Vincent Arel-Bundock 
 
-(not official)
+> Arel-Bundock, Vincent, Nils Enevoldsen, and CJ Yetman, (2018). countrycode: An R package to convert country names and country codes. Journal of Open Source Software, 3(28), 848, https://doi.org/10.21105/joss.00848
 
 ### Install
 
